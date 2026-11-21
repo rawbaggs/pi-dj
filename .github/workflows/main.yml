@@ -27,7 +27,7 @@ jobs:
       - uses: pguyot/arm-runner-action@v2
         id: build_image
         with:
-          base_image: dietpi:rpi_armv8_bookworm
+          base_image: https://dietpi.com/downloads/images/DietPi_RPi234-ARMv8-Bookworm.img.xz
           cpu: cortex-a53
           image_additional_mb: 500
           commands: |
