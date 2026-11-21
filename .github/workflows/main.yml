@@ -28,6 +28,7 @@ jobs:
         id: build_image
         with:
           base_image: https://dietpi.com/downloads/images/DietPi_RPi234-ARMv8-Bookworm.img.xz
+          bootpartition: ""
           cpu: cortex-a53
           image_additional_mb: 3000
           commands: |
